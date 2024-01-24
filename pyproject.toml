@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "money"
+version = "0.1.0"
+description = ""
+authors = ["Yorick van Zweeden <git@yorickvanzweeden.nl>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+bokeh = "^3.3.0"
+pydantic = "^2.4.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
